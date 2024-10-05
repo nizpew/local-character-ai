@@ -8,6 +8,9 @@ This project allows users to upload Tavern characters and interact with an AI th
 It achieves this by cloning [text-generation-webui-colab](https://github.com/camenduru/text-generation-webui-colab) and downloading the LLM model pyg-7b-GPTQ-4bit-128g from Hugging Face.
 It works only on Debian-based systems (as it uses the apt package manager).
 
+][![Watch the video](https://img.youtube.com/vi/kyOgydnXsBI/maxresdefault.jpg)](https://youtu.be/kyOgydnXsBI)
+
+### [Working Demonstration](https://youtu.be/kyOgydnXsBI)
 
 ## How to install
 ```bash
