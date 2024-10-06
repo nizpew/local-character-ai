@@ -1,4 +1,4 @@
-# Character AI Chatbot - local_character_ai
+# (IT IS IN DEVELOPMENT. DONT WORK YET.) Character AI Chatbot - local_character_ai
 
 ## This is a autoinstall script 
 (made for making automatic the installation of softwares and making the entry easy to those same).
