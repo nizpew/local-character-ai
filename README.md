@@ -73,6 +73,15 @@ pip install -r equiements.txt
     -d /character-ai/text-generation-webui/models/pyg-7b-4bit-128-cuda -o cnfig.json files...
 
 
+### TODOS
+ -complete debian autoinstaller
+ -fix nvidea only support 
+ -fix loading bar average time to finish (its too short rn)
+ -review if textgenerationui is working properly 
+
+
+
+
 ### Usage
 1. Tavern characters to the system
 2. Interact with the AI, which will impersonate the uploaded characters
