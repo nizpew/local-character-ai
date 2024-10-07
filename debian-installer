@@ -1,0 +1,16 @@
+#########tavern character ai debian tests updating merge pull stuff
+
+
+# STEPS FOR DEBIAN INSTALL - building and installing Python from source can vary, but here are some estimates:, fot getting the compatible version (python3.10)
+sudo apt install -y -t bookworm-backports python3.10
+sudo apt update -y && sudo apt install -y build-essential libssl-dev libbz2-dev libreadline-dev libsqlite3-dev wget curl llvm libffi-dev zlib1g-dev libgdbm-dev liblzma-dev tk-dev && wget https://www.python.org/ftp/python/3.10.12/Python-3.10.12.tgz && tar -xf Python-3.10.12.tgz && cd Python-3.10.12 && ./configure --enable-optimizations && make -j $(nproc) && sudo make altinstall
+
+
+# make a python env , and give permissions to it
+  python3.10 -m venv myenv
+
+  sudo chown -R $(whoami):$(whoami) /character-ai/text-generation-webui/myenv
+
+  pip install -r requirements.txt
+
+python3.10 server.py --share --settings /character-ai/settings.yaml --wbits 4 --groupsize 128 --loader AutoGPTQ --model /character-ai/text-generation-webui/models/pyg-7b-4bit-128g-cuda
