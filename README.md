@@ -74,11 +74,12 @@ pip install -r equiements.txt
 
 
 ### TODOS
+```
  -complete debian autoinstaller
  -fix nvidea only support 
  -fix loading bar average time to finish (its too short rn)
  -review if textgenerationui is working properly 
-
+```
 
 
 
