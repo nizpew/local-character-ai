@@ -8,7 +8,7 @@ This project allows users to upload Tavern characters and interact with an AI th
 It achieves this by cloning [text-generation-webui-colab](https://github.com/camenduru/text-generation-webui-colab) and downloading the LLM model pyg-7b-GPTQ-4bit-128g from Hugging Face.
 It works only on Debian-based systems (as it uses the apt package manager).
 
-][![Watch the video](https://img.youtube.com/vi/kyOgydnXsBI/maxresdefault.jpg)](https://youtu.be/kyOgydnXsBI)
+[![Watch the video](https://img.youtube.com/vi/kyOgydnXsBI/maxresdefault.jpg)](https://youtu.be/kyOgydnXsBI)
 
 ### [Working Demonstration](https://youtu.be/kyOgydnXsBI)
 
@@ -23,12 +23,12 @@ sudo ./taverngptinstallscript.sh
 
 ## What the scripts does?
 
-### Install Prerequisites
+### It Install Prerequisites
 
 - Run the script with sudo privileges
 - Install Aria2 for downloading models
 
-### How it Installs Steps
+### It does
 
 ```bash
 # Create directory and navigate
@@ -42,7 +42,7 @@ git clone -b v2.5 https://github.com/camenduru/text-generation-web
 cd /character-ai/text-generation-webui
 ```
 
-### Python Environment Setup
+### It does set a Python Environment Setup
 
 ```bash
 # Add PPA for older Python versions
@@ -56,7 +56,7 @@ pip install --upgrade pip
 pip install -r equiements.txt
 ```
 
-### Model Download```
+### It does Model Download```
 # Download required files
 2c --console-log-level=error -c -x 16 -s 16 -k 1M \
     https://hugging.co/4bit/py-7b-4bit-128-cuda/raw/main/config.json \
