@@ -25,7 +25,7 @@ sudo ./install-with-pretty-bar.sh
 ```bash
 
  cd /character-ai/text-generation-webui
- python server.py --share --settings /character-ai.yaml --wbits 4 -- 128 --loader AutoGPTQ --model /character-ai/text-generation-webui/models/pyg-7b-4bit-128g-cuda
+ python3.10 server.py --share --settings /character-ai.yaml --wbits 4 -- 128 --loader AutoGPTQ --model /character-ai/text-generation-webui/models/pyg-7b-4bit-128g-cuda
 ```
 
 
