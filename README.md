@@ -16,9 +16,9 @@ It works only on Debian-based systems (as it uses the apt package manager).
 ```bash
 git clone https://github.com/nizpew/local-character-ai.git
 cd ; cd local-character-ai
-chmod +x ./taverngptinstallscript.sh
+chmod +x ./install-with-pretty-bar.sh
 mv character-ai /
-sudo ./taverngptinstallscript.sh
+sudo ./install-with-pretty-bar.sh
 ```
 
 # Starting the server
