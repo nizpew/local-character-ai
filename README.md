@@ -21,6 +21,14 @@ mv character-ai /
 sudo ./taverngptinstallscript.sh
 ```
 
+# Starting the server
+cd /character-ai/text-generation-webui
+python server.py --share --settings /character-ai.yaml --wbits 4 -- 128 --loader AutoGPTQ --model /character-ai/text-generation-webui/models/pyg-7b-4bit-128g-cuda
+``## Usage
+
+
+
+
 ## What the scripts does?
 
 ### It Install Prerequisites
@@ -62,10 +70,6 @@ pip install -r equiements.txt
     https://hugging.co/4bit/py-7b-4bit-128-cuda/raw/main/config.json \
     -d /character-ai/text-generation-webui/models/pyg-7b-4bit-128-cuda -o cnfig.json files...
 
-# Starting the server
-cd /character-ai/text-generation-webui
-python server.py --share --settings /character-ai.yaml --wbits 4 -- 128 --loader AutoGPTQ --model /character-ai/text-generation-webui/models/pyg-7b-4bit-128g-cuda
-``## Usage
 
 1. Tavern characters to the system
 2. Interact with the AI, which will impersonate the uploaded characters
