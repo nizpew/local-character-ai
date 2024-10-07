@@ -17,7 +17,7 @@ It works only on Debian-based systems (as it uses the apt package manager).
 git clone https://github.com/nizpew/local-character-ai.git
 cd ; cd local-character-ai
 chmod +x ./taverngptinstallscript.sh
-mv -r character-ai /
+mv character-ai /
 sudo ./taverngptinstallscript.sh
 ```
 
