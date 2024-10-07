@@ -16,10 +16,10 @@ cd /character-ai/text-generation-webui
 
 
 #update apt, loading old python
-sudo add-apt-repository ppa:deadsnakes/ppa                        ─╯
+sudo add-apt-repository ppa:deadsnakes/ppa                       
 sudo apt update
-sudo apt install -y python3.10 python3.10-venv python3.10-distutils  ─╯
-python3.10 -m venv myenv                                          ─╯
+sudo apt install -y python3.10 python3.10-venv python3.10-distutils 
+python3.10 -m venv myenv                                    
 source myenv/bin/activate
 pip install --upgrade pip
 pip install -r requirements.txt
@@ -43,7 +43,7 @@ echo "dark_theme: true" > /character-ai/settings.yaml
 echo "chat_style: wpp" >> /character-ai/settings.yaml
 
 cd /character-ai/text-generation-webui
-python server.py --share --settings /character-ai/settings.yaml --wbits 4 --groupsize 128 --loader AutoGPTQ --model /character-ai/text-generation-webui/models/pyg-7b-4bit-128g-cuda
+python3.10 server.py --share --settings /character-ai/settings.yaml --wbits 4 --groupsize 128 --loader AutoGPTQ --model /character-ai/text-generation-webui/models/pyg-7b-4bit-128g-cuda
 
 
 #CREDITS
