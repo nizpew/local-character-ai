@@ -89,7 +89,7 @@ pip install -r equiements.txt
 
 ## Credits
 
-- [Original Repository](https://.com/camenduru/text-generation-webab)
+- [Original Repository]([https://.com/camenduru/text-generation-webab](https://.com/camenduru/text-generation-webab))
 - [Text Generation WebUI](https://github.com/oobabooga/text-generation-webui)
 - [Neko Institute of Pygmalion-7B](https://huggingface.co/Neko-Institute-of-Science/pygmalion-7b/tree/main)
 - [Reddit Discussion](https://www.reddit.com/r/PygmalionAI/comments/118bcey/where_i_can_find_ready_characters_for_tavern/)
